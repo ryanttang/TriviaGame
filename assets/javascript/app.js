@@ -10,44 +10,44 @@ $(document).ready(function() {
 
     // Questions and Answers 
     var questions = [{
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: "Did we play last night? Then I don't watch other teams play. I've got other things to do in my life. I've got a wife. I like to shop. I got fashion. I got other things to do other than watch other teams play.",
+        choices: ["Kevin Durant", "Russell Westbrook", "Allen Iverson", "Larry Bird"],
+        answer: 1
+    }, {
+        question: "We're going to start asking people to go to bars and do some stuff. A little street cred would help us.",
+        choices: ["Jeff Van Gundy", "Rick Carlise", "Nate McMillan", "Gregg Popovich"],
+        answer: 3
+    }, {
+        question: "We're going to turn this team around 360 degrees",
+        choices: ["Steve Nash", "Jason Kidd", "Rajon Rondo", "DeAngelo Russell"],
+        answer: 1
+    }, {
+        question: 'Just remember Michael, when you played, they changed the rules to make it easier for you to dominate. When I played, they changed the rules to make it harder for me',
+        choices: ["Magic Johnson", "Mugsy Bogues", "Wilt Chamberlain", "Moses Malone"],
+        answer: 2
+    }, {
+        question: 'When you are not practicing, someone else is getting better',
+        choices: ["Mike Bibby", "Ben Wallace", "Alonzo Mourning", "Allen Iverson"],
         answer: 0
     }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: 'Our offense is like the Pythagorean Theorem. There is no answer.',
+        choices: ["Shaquille O'Neal", "Kobe Bryant", "Phil Jackson", "Derek Fisher"],
         answer: 0
     }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: "I never met a shot I didn't like",
+        choices: ["Ray Allen", "Stephen Curry", "World B. Free", "JR Smith"],
         answer: 0
     }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: "The idea is not to block every shot. The idea is to make your opponent believe that you might block every shot.",
+        choices: ["Hakeem Olajuwon", "Bill Russell", "Bill Walton", "Dwight Howard"],
         answer: 0
     }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: "I thought Lebron James was just another guy brought in to help me score",
+        choices: ["Dwayne Wade", "Ricky Davis", "Larry Hughes", "Kyrie Irving"],
         answer: 0
     }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
-        answer: 0
-    }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
-        answer: 0
-    }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
-        answer: 0
-    }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
-        answer: 0
-    }, {
-        question: "Who is the Greatest Of All Time?",
-        choices: ["MJ", "Kobe", "Wilt", "Russell"],
+        question: "You can train a cat to bark, but that cat isn't going to bark.",
+        choices: ["Tim Duncan", "Tracy McGrady", "Kobe Bryant", "Gilbert Arenas"],
         answer: 0
     }];
 
