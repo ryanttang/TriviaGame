@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css"> 
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Trivia Game</title>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    </head>
+
+    <header>
+        <h1>NBA Trivia Game</h1>
+        <h3>How much do you really know?</h3>
+    </header>
+
+    <body>
+        <div id = "container">
+            <div id = "start">
+                <button id = "play">Play</button>
+            </div>
+            <br>
+            <div id = "timer"><span id = "countdown">60</span> Seconds!</div>
+            <div id = "quiz">
+                <div id = "questions"></div>
+                <div id = "choices"></div>
+                    <button class = "mc" id = "0"></button>
+                    <button class = "mc" id = "1"></button>
+                    <button class = "mc" id = "2"></button>
+                    <button class = "mc" id = "3"></button>
+            </div>
+        </div>
+        <div id = "results">
+            <h1>Results</h1>
+            <p>Correct: <span id = "correct">0</span></p>
+            <p>Incorrect: <span id = "incorrect">0</span></p>
+            <p>Missed: <span id = "blank">0</span></p>
+            <button id = "restart">Try Again?</button>
+        </div>
+        </div>
+    </div>
+        <script type = "text/javascript" src = "assets/javascript/app.js"></script>
+    </body>
+    </html>
+
