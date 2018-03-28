@@ -1,0 +1,32 @@
+
+body {
+	text-align: center;
+}
+
+header {
+	color: black;
+	padding-top: 20px;
+}
+
+#timer {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#countdown {
+    font-size: 36px
+}
+
+#questions {
+    color: black;
+    font-size: 18px;
+}
+
+#results {
+    color: black;
+}
+
+#restart {
+    color: black;
+}

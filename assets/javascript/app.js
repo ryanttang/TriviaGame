@@ -70,12 +70,11 @@ $(document).ready(function() {
             clearInterval(timer);
             $("#quiz, #timer").hide("slow");
             $("#results").show("slow");
-            scoreCounter();
+            scoreCount();
         }
     };
 
     // User Selection, Check If Answer is Correct or Incorrect
-
     $(".mc").click(function() {
         userGuess = $(this).attr("id");
 
@@ -108,7 +107,7 @@ $(document).ready(function() {
         $("#correct").html(" " + correctAnswer);
         $("#incorrect").html(" " + incorrectAnswer);
         $("#blank").html(" " + blank);
-    } 
+        } 
         // Hide Quiz Until Play is Clicked
         $("#quiz, #results").hide();
 
@@ -121,7 +120,7 @@ $(document).ready(function() {
             // Setup Timer to Countdown from 60 Seconds Total to Answer All Questions
             var startTimer = setInterval(function() {
                 count--;
-                $("countdown").html(count);
+                $("#countdown").html(count);
 
             // If User Runs Out of Time Before Completing Questions, Go to Results Page
             if (count === 0) {
