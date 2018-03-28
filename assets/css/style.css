@@ -1,11 +1,21 @@
 
 body {
-	text-align: center;
+    text-align: center;
+    background-image: url(../images/nba-logo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 250px;
 }
 
+container {
+    background-color: lightgray;
+    height: 100px;
+    width: 300px;
+}
 header {
 	color: black;
-	padding-top: 20px;
+    padding-top: 20px;
+    font-weight: normal;
 }
 
 #timer {
@@ -21,6 +31,7 @@ header {
 #questions {
     color: black;
     font-size: 18px;
+    font-weight: bold;
 }
 
 #results {

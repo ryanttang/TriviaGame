@@ -28,7 +28,7 @@ $(document).ready(function() {
     }, {
         question: 'When you are not practicing, someone else is getting better',
         choices: ["Mike Bibby", "Ben Wallace", "Alonzo Mourning", "Allen Iverson"],
-        answer: 0
+        answer: 3
     }, {
         question: 'Our offense is like the Pythagorean Theorem. There is no answer.',
         choices: ["Shaquille O'Neal", "Kobe Bryant", "Phil Jackson", "Derek Fisher"],
@@ -36,19 +36,19 @@ $(document).ready(function() {
     }, {
         question: "I never met a shot I didn't like",
         choices: ["Ray Allen", "Stephen Curry", "World B. Free", "JR Smith"],
-        answer: 0
+        answer: 2
     }, {
         question: "The idea is not to block every shot. The idea is to make your opponent believe that you might block every shot.",
         choices: ["Hakeem Olajuwon", "Bill Russell", "Bill Walton", "Dwight Howard"],
-        answer: 0
+        answer: 1
     }, {
         question: "I thought Lebron James was just another guy brought in to help me score",
         choices: ["Dwayne Wade", "Ricky Davis", "Larry Hughes", "Kyrie Irving"],
-        answer: 0
+        answer: 1
     }, {
         question: "You can train a cat to bark, but that cat isn't going to bark.",
         choices: ["Tim Duncan", "Tracy McGrady", "Kobe Bryant", "Gilbert Arenas"],
-        answer: 0
+        answer: 2
     }];
 
     // Load New Question to DOM
